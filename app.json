@@ -1,12 +1,21 @@
 {
   "name": "yWeather",
   "displayName": "yWeather",
+  "icon": "./assets/icon.png",
   "expo": {
     "name": "yWeather",
     "slug": "yWeather",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "package": "io.github.gsnasc"
+    }
+  },
+  "splash": {
+    "image": "./assets/splash.png",
+    "backgroundColor": "#f6f5fa",
+    "resizeMode": "cover"
   }
 }
